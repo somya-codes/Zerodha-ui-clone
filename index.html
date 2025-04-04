@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'poppins', sans-serif;
+        }
+        html, body {
+            overflow-x: hidden; /* Hides extra width */
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            position: fixed;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);;
+            background-color: white;
+            top: 0;
+
+        }
+        .zero{
+           box-sizing: border-box;
+            margin-left: 150px;
+            margin-top: 20px;
+            /* margin-right: 20px; */
+            width: 150px;
+        }
+        .container ul{
+            list-style: none; 
+            display: flex; 
+            
+        }
+        .container ul li{
+            margin-top: 20px;
+            margin-right: 80px;
+            
+        }
+        .container ul li a{
+            /* display: inline; */
+            padding: 0; /* Ensure no extra padding */
+            margin: 0;
+            text-decoration: none;
+            color: gray;
+ 
+        }
+        .container ul li a:hover{
+           color: skyblue;
+        }
+        .img{
+            width: 1200px;
+            margin-left: 150px;
+            margin-top: 50px;
+        }
+        .invest{
+            margin-left: 550px;
+            margin-top: 30px;
+        }
+        .invest h1{
+            font-size: 50px;
+            color: rgb(76, 76, 76);
+            font-weight: 400;
+            margin-bottom: 0;
+        
+        }
+        .invest p{
+            margin-left: -170px;
+            font-weight: 300;
+            font-size: 20px;
+        }
+        .btn{
+            background-color: rgb(60, 126, 232);
+            color: white;
+            /* text-decoration: none; */
+            font-size: 20px;
+            padding: 15px 24px;
+            border: none;
+            border-radius: 5px;
+            margin-left: 100px;
+        }
+        .btn:hover{
+            background-color: black;
+        }
+        .text1{
+            max-width: 50%; 
+            text-align: left; 
+            margin-left: 100px;;
+        }
+        .text1 h1{
+            font-weight: 400;
+            margin-left: 100px;
+            margin-top: 150px;
+            font-size: 40px;
+            color: rgb(63, 63, 63);
+        }
+        .text1 h3{
+            font-weight: 400;
+            margin-left: 100px;
+            margin-top: 50px;
+            font-size: 23px;
+        }
+        .text1 p{
+            width: 500px;
+            margin-left: 100px;
+            font-size: 20px;
+            color: gray;
+            line-height: 30px;
+            font-weight: 10;
+        }
+        .text1 p a{
+            text-decoration: none;
+            color: rgb(85, 151, 232);
+            font-weight: 500;
+        }
+        .circle{
+            width: 700px;
+            height: auto;
+            float: right;
+            margin-right: 30px;
+            margin-top: -250px;
+        }
+        .anchor-container{
+            display: flex;
+            justify-content: flex-end; /* Pushes links to the right */
+            margin-top: -45px;   
+            margin-right: 250px;    
+            gap: 50px; 
+            text-decoration: none;
+            font-size: 18px;
+            color: rgb(85, 151, 232);
+        }
+        .anchor-container .anchor{
+            text-decoration: none;
+            color: rgb(85, 151, 232);
+        }
+        .image{
+            margin-top: 100px;
+            margin-left: 400px;
+            width: 140%;
+        }
+        .price h1{
+            margin-top: 100px;
+            font-weight: 400;
+            margin-left: 190px;
+            font-size: 40px;
+            color: rgb(56, 56, 56);
+        }
+        .price p{
+            margin-left: 190px;
+            width: 500px;
+            font-size: 18px;
+            font-weight: 200;
+            line-height: 30px;
+        }
+        .zero-img{
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 150px;
+            margin-top: -100px;
+        }
+        .zero{
+            margin: 0 55px;
+            display: block;
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="zerodha.png" alt="" class="zero">
+        <ul>
+            <li><a href="https://school.100xdevs.com/">Signup</a></li>
+            <li><a href="https://school.100xdevs.com/">About</a></li>
+            <li><a href="https://school.100xdevs.com/">Products</a></li>
+            <li><a href="https://school.100xdevs.com/">Pricing</a></li>
+            <li><a href="https://school.100xdevs.com/">Support</a></li>
+        </ul>
+
+    </div>
+    <img src="img.png" alt="" class="img">
+
+    <div class="invest">
+            <h1>Invest in everything</h1>
+            <p>Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.</p>
+            <button class="btn">Sign up for free</button>
+    </div>
+
+    <div class="text1">
+        <h1>Trust with confidence</h1>
+        <h3>Customer-first always</h3>
+        <p>That's why 1.5+ crore customers trust Zerodha with ₹4.5+ lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India.</p>
+    </div>
+    <img src="circle.png" alt="" class="circle">
+
+    <div class="text1">
+        <h3>No spam or gimmicks</h3>
+        <p>No gimmicks, spam, "gamification", or annoying push notifications. High quality apps that you use at your pace, the way you like.</p>
+    </div>
+    
+    <div class="text1">
+        <h3>The Zerodha universe</h3>
+        <p>Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs.</p>
+    </div>
+
+
+    <div class="text1">
+        <h3>Do better with money</h3>
+            <p>With initiatives like <a href="https://www.facebook.com">Nudge</a> and <a href="https://www.facebook.com">Kill Switch</a>, we don't just facilitate transactions, but actively help you do better with your money.</p> 
+    </div>
+    <div class="anchor-container">
+        <a href="https://www.facebook.com" class="anchor">Explore our products → </a>
+        <a href="https://www.facebook.com" class="anchor">Try Kito demo</a>
+    </div>
+    <div class="image">
+        <img src="image.png" alt="">
+    </div>
+
+    <div class="price">
+        <h1>Unbeatable pricing</h1>
+        <p>We pioneered the concept of discount broking and price transparency in India. Flat fees and no hidden charges.</p>
+    </div>
+    <div class="zero-img">
+        <div class="pricing-item">
+            <img src="zero.svg" alt="₹0" class="zero">
+            <p>Free account <br> opening</p>
+        </div>
+        <div class="pricing-item">
+            <img src="zero.svg" alt="₹0" class="zero">
+            <p>Free equity delivery <br> and direct mutual funds</p>
+        </div>
+        <div class="pricing-item">
+            <img src="20.svg" alt="₹20" class="zero">
+            <p>Intraday and <br> F&O</p>
+        </div>
+    </div>
+    
+</body>
+</html>
